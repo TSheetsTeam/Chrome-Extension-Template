@@ -3,12 +3,12 @@
     </head>
     <body>
         <h2>Chrome Extension Template</h2>
-        <div>Version: 1.0</div>
-        <div>Author: Nate McIntyre (natemcintyre@gmail.com)</div>
-        <div>Updated: 2013.05.17</div>
-        <div>Description: Simple Chrome extension template to kickstart your own Chrome Extension projects. Simply clone this project and you will have all the required basic code necessary to start developing your own browser extension for Chrome.</div>
-        <div>Official Google Getting Started Guide: http://developer.chrome.com/extensions/getstarted.html</div>
-        <div>Bundled Software / Libraries:</div>
+        <div><b>Version:</b> 1.0</div>
+        <div><b>Author:</b> Nate McIntyre (natemcintyre@gmail.com)</div>
+        <div><b>Updated:</b> 2013.05.17</div>
+        <div><b>Description:</b> Simple Chrome extension template to kickstart your own Chrome Extension projects. Simply clone this project and you will have all the required basic code necessary to start developing your own browser extension for Chrome.</div>
+        <div><b>Official Google Getting Started Guide:</b> http://developer.chrome.com/extensions/getstarted.html</div>
+        <div><b>Bundled Software / Libraries:</b></div>
         <div>
             <ul>
                 <li>jQuery 1.9.1: http://jquery.com/</li>
