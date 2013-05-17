@@ -4,6 +4,8 @@ Updated: 2013.05.17
 
 Simple Chrome extension template to kickstart your own Chrome Extension projects. Simply clone this project and you will have all the required basic code necessary to start developing your own browser extension for Chrome.
 
+Official Google Getting Started Guide: http://developer.chrome.com/extensions/getstarted.html
+
 Bundled Software / Libraries:
 - jQuery 1.9.1: http://jquery.com/
 - Bootstrap 2.3.1: http://twitter.github.com/bootstrap/index.html
