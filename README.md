@@ -5,11 +5,8 @@
         <h2>Chrome Extension Template</h2>
         <div>Author: Nate McIntyre (natemcintyre@gmail.com)</div>
         <div>Updated: 2013.05.17</div>
-        <br/>
         <div>Simple Chrome extension template to kickstart your own Chrome Extension projects. Simply clone this project and you will have all the required basic code necessary to start developing your own browser extension for Chrome.</div>
-        <br/>
         <div>Official Google Getting Started Guide: http://developer.chrome.com/extensions/getstarted.html</div>
-        <br/>
         <div>Bundled Software / Libraries:</div>
         <div>
             <ul>
@@ -18,7 +15,6 @@
                 <li>Font Awesome 3.0.2: http://fortawesome.github.io/Font-Awesome/</li>
             </ul>
         </div>
-        <br/>
         <div>If you find this template helpful and can think of a way to improve it, please do so!</div>
     </body>
 </html>
