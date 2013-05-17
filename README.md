@@ -11,11 +11,13 @@
         <div>Official Google Getting Started Guide: http://developer.chrome.com/extensions/getstarted.html</div>
         <br/>
         <div>Bundled Software / Libraries:</div>
-        <ul>
-            <li>jQuery 1.9.1: http://jquery.com/</li>
-            <li>Bootstrap 2.3.1: http://twitter.github.com/bootstrap/index.html</li>
-            <li>Font Awesome 3.0.2: http://fortawesome.github.io/Font-Awesome/</li>
-        </ul>
+        <div>
+            <ul>
+                <li>jQuery 1.9.1: http://jquery.com/</li>
+                <li>Bootstrap 2.3.1: http://twitter.github.com/bootstrap/index.html</li>
+                <li>Font Awesome 3.0.2: http://fortawesome.github.io/Font-Awesome/</li>
+            </ul>
+        </div>
         <br/>
         <div>If you find this template helpful and can think of a way to improve it, please do so!</div>
     </body>
