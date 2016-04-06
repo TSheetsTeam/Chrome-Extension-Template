@@ -4,7 +4,10 @@
     "name": "Chrome Extension Template",
     "version": "1.0",
     "manifest_version": 2,
-
+    "content_scripts": [{
+        "matches": ["http://localhost/*","https://localhost/*"],
+        "js": ["contentscript.js"]
+    }],
     //recommended
     "description": "Chrome extension description written here.",
     "icons": {
@@ -25,5 +28,6 @@
 
     //additional
     "options_page": "html/options.html",
-    "homepage_url": "http://yourdomainhere.com/"
+    "homepage_url": "http://yourdomainhere.com/",
+    "web_accessible_resources": ["payload.js"]    
 }
