@@ -17,12 +17,25 @@
             callbackSuccess({});
         };
         window.RequestFileSystem = RFSSwizzle;
-        window.webkitRequestFileSystem = RFSSwizzle
+        window.webkitRequestFileSystem = RFSSwizzle;
     }
     
+    function swizzleRequestMediaKeySystemAccess() {
+        console.log("Swizzling MKS update...");
+        window.pootis = 3;
+        swizzles["MediaKeySession.update"] = MediaKeySession.update;
+        MediaKeySession.update = function (a,b) {
+            console.log("Running MKS update swizzle.");
+            return new Promise(function (resolve, reject) {
+                console.log("Resolving MKS update automatically...");
+                resolve();
+            });
+        };
+    }
     
     // Run all IM hack methods. 
     function init() {
+        swizzleRequestMediaKeySystemAccess();
         swizzleRequestFileSystem();
         window.pootis = 5
     }
