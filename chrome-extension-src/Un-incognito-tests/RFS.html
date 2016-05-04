@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <script>
+        function main() {
+            var fs = window.RequestFileSystem || window.webkitRequestFileSystem;
+            console.log(fs)
+            if (!fs) {
+                result.textContent = "check failed?";
+                return;
+            }
+                fs(window.TEMPORARY, 100, function(fs) {
+                    result.textContent = "it does not seem like you are in incognito mode";
+                }, function(err) {
+                    result.textContent = "it seems like you are in incognito mode";
+                });
+        }
+        setTimeout(main,100);
+        //main();
+        </script>
+    <meta charset="UTF-8">
+    <title>title</title>
+  </head>
+  <body>
+  <h1>Checks if you are in incognito mode</h1>
+<div id="result"></div>
+  </body>
+</html>
